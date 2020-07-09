@@ -11,10 +11,10 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  https.get(`https://java-gaana-bot.glitch.me/`);
+  https.get(`https://archie-youtube.glitch.me/`);
 }, 280000);
 
 var shell = require('shelljs');
   
-shell.exec('java -jar JMusicBot-0.2.9-Linux.jar')
+shell.exec('java -jar JMusicBot-0.2.10-Linux.jar')
 
